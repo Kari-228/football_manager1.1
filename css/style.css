@@ -1,0 +1,40 @@
+.body{
+    font-family: "Arial";
+    background-color: #f3f3f3;
+}
+
+.wrapper{
+    background-color: #ffffff;
+}
+
+.logo b{
+font-size: 24px;
+line-height: 7px;
+text-transform: uppercase;
+color: #39930d;
+font-weight: bold;
+}
+.pictures{
+    text-align: center;
+}
+.nav {
+    font-size: 14px;
+    line-height: 30px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: #343434;
+}
+.content h1{
+    font-size: 24px;
+    line-height: 7px;
+    color: #39930d;
+    font-weight: bold;
+}
+.content p{
+    font-size: 14px;
+    line-height: 21px;
+    color: #343434;
+}
+.footer{
+    background-color: #39930d;
+}
