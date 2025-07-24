@@ -1,6 +1,7 @@
 .body{
     font-family: "Arial";
     background-color: #f3f3f3;
+    margin: auto;
 }
 
 .wrapper{
@@ -8,11 +9,11 @@
 }
 
 .logo b{
-font-size: 24px;
-line-height: 7px;
-text-transform: uppercase;
-color: #39930d;
-font-weight: bold;
+    font-size: 24px;
+    line-height: 7px;
+    text-transform: uppercase;
+    color: #39930d;
+    font-weight: bold;
 }
 .pictures{
     text-align: center;
