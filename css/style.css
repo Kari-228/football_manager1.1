@@ -1,11 +1,18 @@
 .body{
     font-family: "Arial";
     background-color: #f3f3f3;
-    margin: auto;
+    margin: 0;
 }
 
 .wrapper{
     background-color: #ffffff;
+    margin: auto;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+   
 }
 
 .logo b{
@@ -16,7 +23,8 @@
     font-weight: bold;
 }
 .pictures{
-    text-align: center;
+    display: flex;
+    column-gap: 10px;
 }
 .nav {
     font-size: 14px;
