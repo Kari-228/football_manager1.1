@@ -47,3 +47,9 @@
 .footer{
     background-color: #39930d;
 }
+.footer ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
