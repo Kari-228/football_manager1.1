@@ -21,6 +21,7 @@
     text-transform: uppercase;
     color: #39930d;
     font-weight: bold;
+    flex-direction: column;
 }
 .pictures{
     display: flex;
