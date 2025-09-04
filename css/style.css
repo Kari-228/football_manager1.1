@@ -9,6 +9,7 @@ body{
     background-color: #ffffff;
     max-width: 960px;
     margin: auto;
+    padding: 16px;
 }
 
 .wrapper h2{
@@ -16,9 +17,16 @@ body{
     flex-direction: column;
 }
 
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
 .logo{
+    padding: 15px 0;
     display: flex;
     align-items: center;
+
    
 }
 
@@ -30,10 +38,21 @@ body{
     font-weight: bold;
     flex-direction: column;
 }
-.pictures{
+.logo img{
+padding: 16px;
+}
+.info{
+     padding: 29px 0;
+}
+
+
+.images{
     display: flex;
     column-gap: 10px;
+    
+
 }
+
 
 
 .main{
