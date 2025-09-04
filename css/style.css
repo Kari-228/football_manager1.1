@@ -45,6 +45,9 @@ body{
 .link ul{
     list-style: none;
     color: #343434;
+    font-size: 14px;
+    line-height: 30px;
+    padding-left: 36px;
 }
 
 .link a{
