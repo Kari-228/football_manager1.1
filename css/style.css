@@ -55,10 +55,16 @@ padding: 16px;
 
 
 
-.main{
+.main {
+    padding-bottom: 31px;
     display: flex;
     justify-content: space-around;
-    column-gap: 85px;
+    column-gap: 18px;
+}
+
+.link{
+    text-transform: uppercase;
+    padding-right: 18px;
 }
 
 .link ul{
@@ -82,9 +88,9 @@ padding: 16px;
     padding: 19px 40px;
 }
 
-.link{
-    text-transform: uppercase;
+.main-info{
 }
+
 
 .main-info h1{
     font-size: 24px;
@@ -99,6 +105,8 @@ padding: 16px;
 }
 .footer{
     background-color: #39930d;
+    margin: auto;
+    padding: 135px 40px;
 }
 
 
