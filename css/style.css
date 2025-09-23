@@ -41,8 +41,17 @@ body {
     font-weight: bold;
     flex-direction: column;
 }
-.logo img {
-    padding-right: 16px;
+
+.time {
+    position: relative;
+}
+
+.time::before {
+    content: "";
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    background-image: url(img/schedule.png), no repeat;
 }
 .info {
     font-size: 14px;
@@ -52,9 +61,6 @@ body {
     padding: 29px 0;
 }
 
-.info img {
-    padding-left: 29px;
-}
 
 .info a {
     font-size: 14px;
@@ -63,6 +69,7 @@ body {
     font-family: "Arial";
     text-align: right;
 }
+
 
 .images {
     display: flex;
@@ -88,6 +95,7 @@ body {
     color: #343434;
     font-size: 14px;
     line-height: 30px;
+    padding-left: 40px;
   
 }
 
@@ -101,7 +109,7 @@ body {
     color: #fff;
     font-weight: bold;
     margin: auto;
-    padding: 19px 40px;
+    padding: 20px 40px;
 }
 
 .main-info h1 {
@@ -119,8 +127,11 @@ body {
 
 footer {
     background-color: #39930d;
-    margin: auto;
-    padding: 135px 40px;
+    margin: 0;
+    padding: 8px 40px;
+    display: flex;
+    align-items: center;
+    column-gap:900px;
 }
 
 .footer ul {
@@ -140,10 +151,11 @@ footer {
     margin: auto;
 }
 
-.a {
+.footer li {
     font-size: 14px;
     line-height: 30px;
     text-decoration: underline;
     text-transform: uppercase;
     color: #343434;
+    list-style: none;
 }
