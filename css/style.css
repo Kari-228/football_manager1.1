@@ -52,7 +52,15 @@ body {
     position: absolute;
     width: 22px;
     height: 22px;
-    background-image: url(img/schedule.png), no repeat;
+    background: url(../img/schedule.png) no-repeat;
+}
+
+.tel::before{
+    content: "";
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    background: url(../img/phone.png);
 }
 .info {
     font-size: 14px;
@@ -131,14 +139,12 @@ footer {
     margin: 0;
     padding: 8px 40px;
     display: flex;
-    align-items: center;
-    column-gap:900px;
+    column-gap: 10px;
 }
 
 .footer ul {
     display: flex;
     flex-direction: row-reverse;
-    margin: auto;
     padding: 0;
 }
 
