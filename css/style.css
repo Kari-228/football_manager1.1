@@ -53,6 +53,7 @@ body {
     width: 22px;
     height: 22px;
     background: url(../img/schedule.png) no-repeat;
+    padding: 10px;
 }
 
 .tel::before{
@@ -68,6 +69,7 @@ body {
     font-weight: bold;
     font-family: "Arial";
     padding: 29px 0;
+    display: flex;
 }
 
 
