@@ -54,6 +54,7 @@ body {
     height: 22px;
     background: url(../img/schedule.png) no-repeat;
     padding: 10px;
+    left: 10px;
 }
 
 .tel::before{
@@ -70,6 +71,7 @@ body {
     font-family: "Arial";
     padding: 29px 0;
     display: flex;
+    justify-content: space-between;
 }
 
 
@@ -142,6 +144,7 @@ footer {
     padding: 8px 40px;
     display: flex;
     column-gap: 10px;
+   justify-content: space-around;
 }
 
 .footer ul {
@@ -157,7 +160,7 @@ footer {
 
 .footer p {
     color: #ffffff;
-    margin: auto;
+    
 }
 
 .footer li {
